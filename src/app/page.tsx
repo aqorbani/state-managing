@@ -1,13 +1,15 @@
-import Cart from "@/context/components/Cart";
-import CartButton from "@/context/components/CartButton";
-import ProductList from "@/context/components/ProductList";
+import RProvider from "@/redux-toolkit/RProvider";
 
 export default function Home() {
   return (
     <main className="flex justify-center items-center h-screen">
-      <CartButton />
+      {/* for using of context api */}
+      {/* <CartButton />
       <ProductList />
-      <Cart />
+      <Cart /> */}
+
+      {/* for using of redux toolkit */}
+      <RProvider />
     </main>
   );
 }
