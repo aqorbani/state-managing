@@ -13,6 +13,7 @@ export type CartContextType = {
   cart: CartItem[];
   addToCart: (item: CartItem) => void;
   removeFromCart: (id: number) => void;
+  updateQuantity: (id: number, type: "increase" | "decrease") => void;
   total: number;
 };
 
