@@ -1,4 +1,4 @@
-import RProvider from "@/redux/RProvider";
+import RProvider from "@/redux-toolkit-async/RProvider";
 
 export default function Home() {
   return (
